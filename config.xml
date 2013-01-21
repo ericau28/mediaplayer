@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.ericau28.mediaplayer"
+        versionCode = "10"
+        version     = "1.1.0">
+ 
+    <name>Media Player</name>
+ 
+    <description>
+        A simple CR1 media player
+    </description>
+ 
+    <author href="http://ericau28.org" email="ericau28@hotmail.com">
+        Eric Au
+    </author>
+ 
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+
+    <preference name="android-installLocation" value="auto" />
+ 
+</widget>
